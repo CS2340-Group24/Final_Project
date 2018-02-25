@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.nullpo.myapplication.LoggedInActivity">
+    tools:context="com.gatech.fourhorse.cs2340_project.LoggedInActivity">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -18,6 +19,43 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="214dp"
             android:text="Logout" />
+
+        <TextView
+            android:id="@+id/show_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="87dp"
+            android:text="Username" />
+
+        <TextView
+            android:id="@+id/show_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/show_user"
+            android:layout_marginStart="88dp"
+            android:layout_toEndOf="@+id/show_user"
+            android:text="Type" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/show_user"
+            android:layout_marginTop="30dp"
+            android:text="username" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/show_type"
+            android:layout_alignTop="@+id/textView2"
+            android:text="Type" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
