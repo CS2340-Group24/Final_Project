@@ -1,0 +1,3 @@
+/home/nullpo/StudioProjects/CS2340_Project/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/home/nullpo/StudioProjects/CS2340_Project/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/home/nullpo/StudioProjects/CS2340_Project/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/native-lib.dir
